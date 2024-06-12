@@ -1,0 +1,325 @@
+#Ideologies inspired by various other mods
+
+ideologies = {
+	totalist = {
+		types = {
+			totalist_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_TOTALIST_1"
+			"FACTION_NAME_TOTALIST_2"
+			"FACTION_NAME_TOTALIST_3"
+			"FACTION_NAME_TOTALIST_4"
+			"FACTION_NAME_TOTALIST_5"
+			"FACTION_NAME_TOTALIST_6"
+		}
+		color = {92 28 26}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.45
+			guarantee_tension = 0.45
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 6.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	syndicalist = {
+		types = {
+			syndicalist_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SYNDICALIST_1"
+			"FACTION_NAME_SYNDICALIST_2"
+			"FACTION_NAME_SYNDICALIST_3"
+			"FACTION_NAME_SYNDICALIST_4"
+			"FACTION_NAME_SYNDICALIST_5"
+			"FACTION_NAME_SYNDICALIST_6"
+		}
+		color = {181 46 42}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.55
+			guarantee_tension = 0.55
+			civilian_intel_to_others = 12.5
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	socialist = {
+		types = {
+			socialist_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALIST_1"
+			"FACTION_NAME_SOCIALIST_2"
+			"FACTION_NAME_SOCIALIST_3"
+			"FACTION_NAME_SOCIALIST_4"
+			"FACTION_NAME_SOCIALIST_5"
+			"FACTION_NAME_SOCIALIST_6"
+		}
+		color = {250 74 65}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.6
+			guarantee_tension = 0.6
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 11.5
+			navy_intel_to_others = 11.5
+			airforce_intel_to_others = 11.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	social_democrat = {
+		types = {
+			socialdemocratic_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALDEMOCRATIC_1"
+			"FACTION_NAME_SOCIALDEMOCRATIC_2"
+			"FACTION_NAME_SOCIALDEMOCRATIC_3"
+			"FACTION_NAME_SOCIALDEMOCRATIC_4"
+			"FACTION_NAME_SOCIALDEMOCRATIC_5"
+			"FACTION_NAME_SOCIALDEMOCRATIC_6"
+		}
+		color = {222 89 106}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.5
+			navy_intel_to_others = 17.5
+			airforce_intel_to_others = 5.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+social_liberal = {
+		types = {
+			socialliberalism_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALLIBERALISM_1"
+			"FACTION_NAME_SOCIALLIBERALISM_2"
+			"FACTION_NAME_SOCIALLIBERALISM_3"
+			"FACTION_NAME_SOCIALLIBERALISM_4"
+			"FACTION_NAME_SOCIALLIBERALISM_5"
+			"FACTION_NAME_SOCIALLIBERALISM_6"
+		}
+		color = {250 172 55}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.5
+			navy_intel_to_others = 17.5
+			airforce_intel_to_others = 5.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	market_liberal = {
+		types = {
+			marketliberalism_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_MARKETLIBERALISM_1"
+			"FACTION_NAME_MARKETLIBERALISM_2"
+			"FACTION_NAME_MARKETLIBERALISM_3"
+			"FACTION_NAME_MARKETLIBERALISM_4"
+			"FACTION_NAME_MARKETLIBERALISM_5"
+			"FACTION_NAME_MARKETLIBERALISM_6"
+		}
+		color = {250 195 55}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.5
+			navy_intel_to_others = 17.5
+			airforce_intel_to_others = 5.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	social_conservative = {
+		types = {
+			socialconservatism_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIALCONSERVATISM_1"
+			"FACTION_NAME_SOCIALCONSERVATISM_2"
+			"FACTION_NAME_SOCIALCONSERVATISM_3"
+			"FACTION_NAME_SOCIALCONSERVATISM_4"
+			"FACTION_NAME_SOCIALCONSERVATISM_5"
+			"FACTION_NAME_SOCIALCONSERVATISM_6"
+		}
+		color = {31 31 209}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.5
+			navy_intel_to_others = 17.5
+			airforce_intel_to_others = 5.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	authoritarian_democrat = {
+		types = {
+			authoritariandemocratic_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIANDEMOCRATIC_1"
+			"FACTION_NAME_AUTHORITARIANDEMOCRATIC_2"
+			"FACTION_NAME_AUTHORITARIANDEMOCRATIC_3"
+			"FACTION_NAME_AUTHORITARIANDEMOCRATIC_4"
+			"FACTION_NAME_AUTHORITARIANDEMOCRATIC_5"
+			"FACTION_NAME_AUTHORITARIANDEMOCRATIC_6"
+		}
+		color = {136 136 153}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.75
+			guarantee_tension = 0.75
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.5
+			navy_intel_to_others = 17.5
+			airforce_intel_to_others = 5.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	paternal_autocrat = {
+		types = {
+			paternalautocratic_subtype = {} #Generic
+			junta_subtype = {can_be_randomly_selected = no} 
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PATERNALAUTOCRATIC_1"
+			"FACTION_NAME_PATERNALAUTOCRATIC_2"
+			"FACTION_NAME_PATERNALAUTOCRATIC_3"
+			"FACTION_NAME_PATERNALAUTOCRATIC_4"
+			"FACTION_NAME_PATERNALAUTOCRATIC_5"
+			"FACTION_NAME_PATERNALAUTOCRATIC_6"
+		}
+		color = {45 45 45}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.5
+			guarantee_tension = 0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 9.5
+			navy_intel_to_others = 13.5
+			airforce_intel_to_others = 9.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	ultranationalist = {
+		types = {
+			ultranationalistic_subtype = {} #Generic
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ULTRANATIONALISTIC_1"
+			"FACTION_NAME_ULTRANATIONALISTIC_2"
+			"FACTION_NAME_ULTRANATIONALISTIC_3"
+			"FACTION_NAME_ULTRANATIONALISTIC_4"
+			"FACTION_NAME_ULTRANATIONALISTIC_5"
+			"FACTION_NAME_ULTRANATIONALISTIC_6"
+		}
+		color = {45 45 45}
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+		}
+		can_collaborate = yes
+		modifiers = {
+			generate_wargoal_tension = 0.45
+			guarantee_tension = 0.45
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 6.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+		}
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+}

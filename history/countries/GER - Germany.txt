@@ -369,23 +369,28 @@ set_war_support = 0.2
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = paternal_autocrat
 	last_election = "1920.6.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 9
-	fascism = 21
-	communism = 26
-	neutrality = 44
+	paternal_autocrat = 43
+	ultranationalist = 21
+	syndicalist = 12
+	socialist = 14
+	totalist = 4
+	market_liberal = 6
+	social_conservative = 9
+	social_liberal = 1
+	social_democrat = 4
 }
 
 create_country_leader = {
 	name = "Walther von Lüttwitz"
 	desc = ""
 	picture = "LuettwitzA.dds"
-	ideology = oligarchism
+	ideology = junta_subtype
 	traits = {
 		# 
 	}
