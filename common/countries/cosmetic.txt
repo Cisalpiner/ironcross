@@ -1,0 +1,4 @@
+GNS = { #National Socialist Germnany
+    color = rgb {46 51 57}
+    color_ui = {100 106 117}
+}

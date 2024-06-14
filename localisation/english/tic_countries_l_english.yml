@@ -20,7 +20,7 @@ GER_paternal_autocrat_DEF:0 "the German Empire"
 GER_junta_subtype:0 "German Imperial Authority"
 GER_junta_subtype_DEF:0 "the German Imperial Authority"
 GER_ultranationalist:0 "Deutsches Reich"
-GER_ultranationalist_def:0 "das Deutsche Reich" ###I always see many mods making this *das Deutsches Reich* mistake. Luckily, I know German grammar! -Cisalpiner
+GER_ultranationalist_DEF:0 "das Deutsche Reich" ###I always see many mods making this *das Deutsches Reich* mistake. Luckily, I know German grammar! -Cisalpiner
 GER:0 "Germany"
 GER_DEF:0 "Germany"
 GER_ADJ:0 "German"

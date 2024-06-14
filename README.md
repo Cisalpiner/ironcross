@@ -1,5 +1,5 @@
 #############
-The Iron Cross
+(the) Iron Cross
 ##############
 
 Thank you for downloading our mod! To install it, the steps are as follow:

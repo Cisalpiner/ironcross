@@ -1,4 +1,4 @@
-﻿
+
 capital = 64
 if = {
 	limit = {
@@ -369,22 +369,18 @@ set_war_support = 0.2
 	}
 }
 
-set_politics = {
-	ruling_party = paternal_autocrat
-	last_election = "1920.6.1"
-	election_frequency = 48
-	elections_allowed = no
-}
+
 set_popularities = {
-	paternal_autocrat = 43
+	paternal_autocrat = 27
 	ultranationalist = 21
-	syndicalist = 12
-	socialist = 14
-	totalist = 4
+	syndicalist = 6
+	socialist = 5
+	totalist = 3
 	market_liberal = 6
 	social_conservative = 9
-	social_liberal = 1
+	social_liberal = 3
 	social_democrat = 4
+	authoritarian_democrat = 16
 }
 
 set_party_name = {
@@ -438,18 +434,6 @@ set_party_name = {
 	name = GER_ultranationalist_party
 }
 
-create_country_leader = {
-	name = "Walther von Lüttwitz"
-	desc = ""
-	picture = "LuettwitzA.dds"
-	ideology = junta_subtype
-	traits = {
-		# 
-	}
-}
-
-
-
 add_ideas = {
 	sour_loser
 	general_staff
@@ -464,7 +448,8 @@ activate_mission = GER_mefo_bills_mission
 
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
-recruit_character = GER_adolf_hitler
+recruit_character = GER_luettwitz
+recruit_character = GER_feder
 recruit_character = GER_albert_kesselring
 recruit_character = GER_alfred_jodl
 recruit_character = GER_alfred_saalwachter
@@ -543,6 +528,12 @@ recruit_character = GER_august_von_mackensen
 
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
+set_politics = {
+	ruling_party = paternal_autocrat
+	last_election = "1920.13.3"
+	election_frequency = 48
+	elections_allowed = no
+}
 
 if = {
 	limit = {

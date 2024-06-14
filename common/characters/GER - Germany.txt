@@ -1,0 +1,36 @@
+characters = {
+    GER_luettwitz = {
+    name = GER_luettwitz
+    portraits = { 
+        civillian = { large = "gfx/leaders/GER/Portrait_GER_Luettwitz.dds"}
+        army = {large = "gfx/leaders/GER/Portrait_GER_Luettwitz.dds"}
+    }
+    country_leader = {
+        desc = "LUETTWITZ_DESC"
+        ideology = junta_subtype
+        traits = { DEN_rightwing_populist } 
+        expire = "1999.1.1.1"
+        id = -1
+    }
+    field_marshal = {
+        traits = {defensive_doctrine thorough_planner adaptable careful_organizer}
+        skill = 4
+        attack_skill = 3
+        defense_skill = 4
+        planning_skill = 4
+        logistics_skill = 3
+        legacy_id = -1
+    }
+}
+GER_feder = {
+     name = GER_feder
+    portraits = {civillian = {large = "gfx/leaders/GER/Portrait_GER_Feder.dds"}}
+    country_leader = {
+        desc = "FEDER_DEC"
+        ideology = national_socialism
+        traits = { dictator }
+        expire = "1999.1.1.1"
+        id = -1
+    }
+}
+}
