@@ -159,7 +159,7 @@ set_variable = { GER_narvik_civs = 0 }
 set_research_slots = 3
 set_convoys = 150
 set_stability = 0.45
-set_war_support = 0.2
+set_war_support = 0.47
 
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
@@ -371,16 +371,16 @@ set_war_support = 0.2
 
 
 set_popularities = {
-	paternal_autocrat = 27
-	ultranationalist = 21
-	syndicalist = 6
-	socialist = 5
-	totalist = 3
-	market_liberal = 6
-	social_conservative = 9
-	social_liberal = 3
-	social_democrat = 4
-	authoritarian_democrat = 16
+	paternal_autocrat = 27.53
+	ultranationalist = 21.97
+	syndicalist = 6.33
+	socialist = 5.41
+	totalist = 3.74
+	market_liberal = 6.12
+	social_conservative = 9.80
+	social_liberal = 3.49
+	social_democrat = 4.64
+	authoritarian_democrat = 10.97
 }
 
 set_party_name = {
@@ -433,18 +433,6 @@ set_party_name = {
 	long_name = GER_ultranationalist_party_long
 	name = GER_ultranationalist_party
 }
-
-add_ideas = {
-	sour_loser
-	general_staff
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-#	SWE_historical_trade_with_Germany_dummy CUT
-}
-add_ideas = GER_mefo_bills_1
-
-activate_mission = GER_mefo_bills_mission
 
 recruit_character = GER_wilhelm_pieck
 recruit_character = GER_konrad_adenauer
