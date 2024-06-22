@@ -1,0 +1,20 @@
+state={
+	id=972
+	name="STATE_972"
+	history = {
+			owner = POL
+		infrastructure = 3
+		industrial_complex = 1
+		victory_points = {
+			3295 5 
+		}
+		add_core_of = POL
+	}
+	provinces={
+		3295 6347 
+	}
+	manpower=62350
+	buildings_max_level_factor=1.000
+	state_category = city
+	local_supplies=0.000
+}

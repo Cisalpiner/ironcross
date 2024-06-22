@@ -1,0 +1,26 @@
+state={
+	id=982
+	name="STATE_982"
+	resources = {
+		steel = 7.000
+	}
+	history = {
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		victory_points = {
+			688 10 
+		}
+		add_core_of = AUS
+	}
+	provinces={
+		668 671 688 3674 3675 6691 
+	}
+	manpower=254300
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
