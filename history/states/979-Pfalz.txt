@@ -1,0 +1,25 @@
+state={
+	id=979
+	name="STATE_979"
+	resources = {
+		aluminium = 4.000
+	}
+	history = {
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+		victory_points = {
+			3423 5
+		}
+		add_core_of = GER
+	}
+	provinces={
+		563 3423 3558 11547 11560 
+	}
+	manpower=1135000
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
