@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_GER_legacy_of_the_freikorps"
+		texturefile = "gfx/interface/ideas/GER_legacy_of_the_freikorps.dds"
+	}
+}
