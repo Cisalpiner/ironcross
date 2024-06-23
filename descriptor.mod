@@ -6,6 +6,6 @@ tags={
 	"Events"
 	"Gameplay"
 }
-name="The Iron Cross"
+name="Iron Cross"
 picture = "thumbnail.png"
 supported_version="1.14.6"
