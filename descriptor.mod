@@ -8,4 +8,4 @@ tags={
 }
 name="Iron Cross"
 picture = "thumbnail.png"
-supported_version="1.14.6"
+supported_version="1.14.*"
