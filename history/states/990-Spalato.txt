@@ -1,0 +1,32 @@
+
+state={
+	id=990
+	name="STATE_990"
+
+	history={
+		owner = ITA
+		victory_points = {
+			6889 3 
+		}
+		add_core_of = ITA
+		add_claim_by = YUG
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			6889 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3868 3924 6889 11816 
+	}
+	manpower=82000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
