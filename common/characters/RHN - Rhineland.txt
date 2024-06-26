@@ -1,0 +1,17 @@
+characters = {
+    RHN_liebknecht = {
+        name = RHN_liebknecht
+        portraits = {
+            civilian = {large = "gfx/leaders/RHN/Portrait_RHN_Liebknecht.dds"}
+        }
+        country_leader = {
+            desc = "LIEBKNECHT_DESC"
+            ideology = totalist_subtype
+            traits = { international_revolutionary }
+            expire = "1999.1.1.1"
+            id = -1
+        }
+    }
+    
+}
+
