@@ -1,0 +1,8 @@
+GER = {
+    color = rgb {75 80 87}
+    color_ui = rgb {100 106 117}
+}
+RHN = {
+    color = rgb {65 135 89}
+    color_ui = rgb {65 135 89}
+}

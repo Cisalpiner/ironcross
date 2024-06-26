@@ -2,18 +2,18 @@ state={
 	id=986
 	name="STATE_986"
 	history = {
-		owner = BEL
+		owner = RHN
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = BEL
-		add_claim_by = GER
+		add_core_of = RHN
+		add_claim_by = BEL
 	}
 	provinces={
 		3488 
 	}
 	manpower=75000
-	state_category = town
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
