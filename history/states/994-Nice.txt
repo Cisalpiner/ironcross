@@ -1,0 +1,28 @@
+state={
+	id=994
+	name="STATE_994"
+	history = {
+		owner = ITA
+		add_claim_by = ITA
+		add_core_of = FRA
+		set_compliance = 70
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 3
+
+			9909 = {
+				naval_base = 2
+
+			}
+		}
+	}
+	provinces={
+		3959 9909 
+	}
+	manpower=325130
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=995
+	name="STATE_995"
+	history = {
+		owner = ITA
+		victory_points = {
+			6788 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			dockyard = 2
+			industrial_complex = 1
+			6788 = {
+				naval_base = 8
+
+			}
+		}
+		add_core_of = ITA
+	}
+	provinces={
+		3772 6788 11891 
+	}
+	manpower=1532000
+	state_category = large_city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

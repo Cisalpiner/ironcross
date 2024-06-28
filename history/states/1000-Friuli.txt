@@ -1,0 +1,25 @@
+state={
+	id=1000
+	name="STATE_1000"
+	resources = {
+		steel = 4.000
+		aluminium = 3.000
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+	provinces={
+		628 3657 9613 
+	}
+	manpower=1214530
+	state_category = city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

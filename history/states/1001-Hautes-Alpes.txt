@@ -1,19 +1,18 @@
 state={
-	id=971
-	name="STATE_971"
+	id=1001
+	name="STATE_1001"
 	history = {
-		owner = POL
+		owner = FRA
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = POL
-		add_claim_by = GER
 	}
 	provinces={
-		6375 9346 
+		764 3764 6975 9736 
 	}
-	manpower=170000
-	state_category = town
+	manpower=089125
+	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
