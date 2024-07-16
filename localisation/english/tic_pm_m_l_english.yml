@@ -1,0 +1,18 @@
+first_leader_title:0 "[ROOT.GetFirstTitle]"
+ second_leader_title:0 "[ROOT.GetSecondTitle]"
+ dual_leader_name:0 "[ROOT.GetDualLeaderName]"
+ DEFAULT_TITLE:0 "Vacant"
+ DEFAULT_FIRST_TITLE:0 "Leader"
+ DESCRIPTION_TEST:0 "His Majesty"
+ second_leader_tt:0 "§Y[ROOT.GetDualLeaderName]§!"
+ first_leader_diplo_tt:0 "§Y[From.GetLeader]§!\n[From.GetFirstTitle] of [From.GetNameDef]"
+ second_leader_diplo_tt:0 "§Y[From.GetDualLeaderName]§!\n[From.GetSecondTitle] of [From.GetNameDef]"
+ dual_leader_desc_tt:0 "§g[From.GetDualLeaderDesc]§!"
+ first_leader_desc_tt:0 "§g[From.GetFirstLeaderDesc]§!"G
+
+
+GER_pm:0 "Prime Minister"
+GER_fuhrer_title:0 "Führer"
+GER_kaiser:0 "Kaiser"
+GER_kaiserin:0 "Kaiserin"
+GER_Waldemar:0 "Waldemar"

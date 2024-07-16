@@ -77,18 +77,26 @@ ideas = {
                 stability_factor = -0.15
             }
         }
-        GER_state_of_the_kaiser = {
-            picture = GER_state_of_the_kaiser
+        GER_waldemar = {
+            hidden = yes
             allowed = {
                 tag = GER
-                has_country_flag = kaiser_limbo
+                has_country_flag = GER_kaiser_waldemar
+                NOT = {
+                    has_country_flag = kaiser_abolished
+                }
             }
-            cancel = {}
-            allowed_civil_war = yes
-            removal_cost = -1
-            modifier = {
-                stability_factor = -0.05
-                political_power_gain = -0.05
+            allowed_civil_war = no
+            cancel = {
+                not = {
+                   OR = {
+                    NOT = {
+                        has_country_flag = GER_kaiser_waldemar
+                    }
+                    has_country_flag = kaiser_abolished
+                   } 
+
+                }
             }
         }
     }
