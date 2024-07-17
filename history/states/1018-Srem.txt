@@ -1,0 +1,19 @@
+state={
+	id=1018
+	name="STATE_1018"
+	history = {
+		owner = SER
+		add_core_of = SER
+		add_claim_by = CRO
+		buildings = {
+			infrastrructure = 3
+		}
+	}
+	provinces={
+		11577 11580 
+	}
+	manpower=187520
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

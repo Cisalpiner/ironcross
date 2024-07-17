@@ -14,6 +14,7 @@ state={
 			3423 5
 		}
 		add_core_of = GER
+				set_demilitarized_zone = yes
 	}
 	provinces={
 		563 3423 3558 11547 11560 

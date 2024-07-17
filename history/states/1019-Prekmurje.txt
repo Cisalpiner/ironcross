@@ -1,18 +1,18 @@
 state={
-	id=986
-	name="STATE_986"
+	id=1019
+	name="STATE_1019"
 	history = {
-		owner = GER
+		owner = HUN
+		add_core_of = HUN
+		add_core_of = SLV
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = GER
-				set_demilitarized_zone = yes
 	}
 	provinces={
-		3488 
+		665 6672 
 	}
-	manpower=75000
+	manpower=87230
 	state_category = rural
 	buildings_max_level_factor=1.000
 	local_supplies=0.000

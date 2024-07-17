@@ -1,20 +1,25 @@
+
 state={
 	id=1011
 	name="STATE_1011"
-	history = {
+
+	history={
 		owner = ROM
 		add_core_of = ROM
 		add_claim_by = HUN
 		buildings = {
 			infrastructure = 3
-			industrial_complex =1
+			industrial_complex = 1
+
 		}
+
 	}
+
 	provinces={
 		6731 9672 9685 
 	}
 	manpower=436120
-	state_category = large_town
 	buildings_max_level_factor=1.000
+	state_category=large_town
 	local_supplies=0.000
 }
