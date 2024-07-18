@@ -1,0 +1,150 @@
+capital = 1004
+
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	superior_firepower = 1
+	trade_interdiction = 1
+	formation_flying = 1
+}
+
+set_country_flag = Austrian_Occupation
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 3
+set_stability = 0.40
+set_war_support = 0.15
+
+AUS = {
+    if = {
+        limit = {
+            has_dlc = "Together for Victory"
+        }
+        set_autonomy = {
+            target = CZE
+            autonomy_state = TIC_Autonomous_Region
+        }
+        else = {
+            puppet = CZE
+        }
+    }
+}
+
+
+set_popularities = {
+	paternal_autocrat = 26.23
+	ultranationalist = 49.34
+	syndicalist = 2.84
+	socialist = 7.34
+	totalist = 1.74
+	market_liberal = 5.92
+	social_conservative = 3.80
+	social_liberal = 0.61
+	social_democrat = 1.64
+	authoritarian_democrat = 0.54
+}
+
+set_party_name = {
+	ideology = totalist
+	long_name = CZE_totalist_party_long
+	name = CZE_totalist_party
+}
+set_party_name = {
+	ideology = syndicalist
+	long_name = CZE_syndicalist_party_long
+	name = CZE_syndicalist_party
+}
+set_party_name = {
+	ideology = socialist
+	long_name = CZE_socialist_party_long
+	name = CZE_socialist_party
+}
+set_party_name = {
+	ideology = social_democrat
+	long_name = CZE_social_democrat_party_long
+	name = CZE_social_democrat_party
+}
+set_party_name = {
+	ideology = social_liberal
+	long_name = CZE_social_liberal_party_long
+	name = CZE_social_liberal_party
+}
+set_party_name = {
+	ideology = market_liberal
+	long_name = CZE_market_liberal_party_long
+	name = CZE_market_liberal_party
+}
+set_party_name = {
+	ideology = social_conservative
+	long_name = CZE_social_conservative_party_long
+	name = CZE_social_conservative_party
+}
+set_party_name = {
+	ideology = authoritarian_democrat
+	long_name = CZE_authdem_party_long
+	name = CZE_authdem_party
+}
+set_party_name = {
+	ideology = paternal_autocrat
+	long_name = CZE_pataut_party_long
+	name = CZE_pataut_party
+}
+set_party_name = {
+	ideology = ultranationalist
+	long_name = CZE_ultranationalist_party_long
+	name = CZE_ultranationalist_party
+}
+
+set_politics = {
+	ruling_party = ultranationalist
+	last_election = "1921.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+}
