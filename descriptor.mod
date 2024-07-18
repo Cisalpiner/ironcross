@@ -9,3 +9,4 @@ tags={
 name="Iron Cross"
 picture = "thumbnail.png"
 supported_version="1.14.*"
+replace_path = "gfx/loadingscreens"

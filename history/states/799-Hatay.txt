@@ -6,12 +6,11 @@ state={
 	}
 	manpower = 234379
 	
-	state_category = enclave
+	state_category = town
 
 	history= {
-		owner = FRA
+		owner = TUR
 		add_core_of = TUR
-		add_core_of = SYR
 		victory_points = {
 			12029 1
 		}
