@@ -24,6 +24,18 @@ GER_ultranationalist_DEF:0 "das Deutsche Reich" ###I always see many mods making
 GER:0 "Germany"
 GER_DEF:0 "Germany"
 GER_ADJ:0 "German"
+#Denmark
+DEN_esoteric_germanicism:0 "High Commonwealth of Nordhjem"
+DEN_esoteric_germanicism_DEF:0 "the High Commonwealth of Nordhjem"
+
+### Austria
+AUS_national_socialism:0 "Deutsches Reich"
+AUS_national_socialism_DEF:0 "das Deutsche Reich"
+
+#Czechia
+CZE_AUS_TIC_Autonomous_Region:0 "Bohemian Autonomy"
+CZE_AUS_TIC_Autonomous_Region_DEF:0 "the Autonomous Region of Bohemia"
+
 ######### Rhineland
 RHN_totalist:0 "Rhenish Workers' Union"
 RHN_totalist_DEF:0 "the Rhenish Workers' Union"
