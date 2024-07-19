@@ -221,7 +221,7 @@ set_party_name = {
 	name = GER_ultranationalist_party
 }
 
-recruit_character = GER_luettwitz
+recruit_character = GER_K_Waldemar
 recruit_character = GER_feder
 
 

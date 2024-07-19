@@ -1,0 +1,24 @@
+characters = {
+    AUS_Steidle = {
+    name = AUS_Steidle
+    portraits = {civilian = {large = "gfx/leaders/AUS/Portrait_AUS_Steidle.dds"}}
+    country_leader = {
+        desc = "STEIDLE_DESC"
+        ideology = national_socialism
+        traits = {}
+        expire = "1999.1.1.1"
+        id = -1
+    }
+}
+AUS_Hitler = {
+    name = AUS_Hitler
+    portraits = {civilian = {large = "gfx/leaders/AUS/Portrait_AUS_Hitler.dds"}}
+    country_leader = {
+        desc = "HITLER_DESC"
+        ideology = socialdemocratic_subtype
+        traits = {}
+        expire = "1999.1.1.1"
+        id = -1
+    }
+}
+}

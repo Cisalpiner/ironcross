@@ -1,0 +1,13 @@
+characters = {
+    HUN_Charles = {
+    name = HUN_Charles
+    portraits = {civilian = {large = "gfx/leaders/HUN/Portrait_HUN_Charles.dds"}}
+    country_leader = {
+        desc = "CHARLESIV_DESC"
+        ideology = paternalautocratic_subtype
+        traits = {}
+        expire = "1999.1.1.1"
+        id = -1
+    }
+}
+}

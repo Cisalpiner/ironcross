@@ -1,4 +1,4 @@
-capital = 1004
+capital = 43
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -21,8 +21,6 @@ set_technology = {
 	trade_interdiction = 1
 	formation_flying = 1
 }
-
-set_country_flag = Austrian_Occupation
 
 if = {
 	limit = {
@@ -56,97 +54,81 @@ if = {
 	}
 }
 set_research_slots = 3
-set_stability = 0.40
-set_war_support = 0.15
-
-AUS = {
-    if = {
-        limit = {
-            has_dlc = "Together for Victory"
-        }
-        set_autonomy = {
-            target = CZE
-            autonomy_state = TIC_Autonomous_Region
-        }
-        else = {
-            puppet = CZE
-        }
-    }
-}
-
+set_stability = 0.42
+set_war_support = 0.35
 
 set_popularities = {
-	paternal_autocrat = 11.52
-	ultranationalist = 38.45
-	syndicalist = 6.03
-	socialist = 8.87
-	totalist = 3.28
-	market_liberal = 8.73
-	social_conservative = 7.21
-	social_liberal = 3.12
-	social_democrat = 10.18
-	authoritarian_democrat = 2.61
+	paternal_autocrat = 22.34
+	ultranationalist = 8.56
+	syndicalist = 6.12
+	socialist = 10.21
+	totalist = 3.45
+	market_liberal = 14.98
+	social_conservative = 13.54
+	social_liberal = 8.23
+	social_democrat = 10.45
+	authoritarian_democrat = 2.12
 }
 
 set_party_name = {
 	ideology = totalist
-	long_name = CZE_totalist_party_long
-	name = CZE_totalist_party
+	long_name = HUN_totalist_party_long
+	name = HUN_totalist_party
 }
 set_party_name = {
 	ideology = syndicalist
-	long_name = CZE_syndicalist_party_long
-	name = CZE_syndicalist_party
+	long_name = HUN_syndicalist_party_long
+	name = HUN_syndicalist_party
 }
 set_party_name = {
 	ideology = socialist
-	long_name = CZE_socialist_party_long
-	name = CZE_socialist_party
+	long_name = HUN_socialist_party_long
+	name = HUN_socialist_party
 }
 set_party_name = {
 	ideology = social_democrat
-	long_name = CZE_social_democrat_party_long
-	name = CZE_social_democrat_party
+	long_name = HUN_social_democrat_party_long
+	name = HUN_social_democrat_party
 }
 set_party_name = {
 	ideology = social_liberal
-	long_name = CZE_social_liberal_party_long
-	name = CZE_social_liberal_party
+	long_name = HUN_social_liberal_party_long
+	name = HUN_social_liberal_party
 }
 set_party_name = {
 	ideology = market_liberal
-	long_name = CZE_market_liberal_party_long
-	name = CZE_market_liberal_party
+	long_name = HUN_market_liberal_party_long
+	name = HUN_market_liberal_party
 }
 set_party_name = {
 	ideology = social_conservative
-	long_name = CZE_social_conservative_party_long
-	name = CZE_social_conservative_party
+	long_name = HUN_social_conservative_party_long
+	name = HUN_social_conservative_party
 }
 set_party_name = {
 	ideology = authoritarian_democrat
-	long_name = CZE_authdem_party_long
-	name = CZE_authdem_party
+	long_name = HUN_authdem_party_long
+	name = HUN_authdem_party
 }
 set_party_name = {
 	ideology = paternal_autocrat
-	long_name = CZE_pataut_party_long
-	name = CZE_pataut_party
+	long_name = HUN_pataut_party_long
+	name = HUN_pataut_party
 }
 set_party_name = {
 	ideology = ultranationalist
-	long_name = CZE_ultranationalist_party_long
-	name = CZE_ultranationalist_party
+	long_name = HUN_ultranationalist_party_long
+	name = HUN_ultranationalist_party
 }
 
 set_politics = {
-	ruling_party = ultranationalist
+	ruling_party = paternal_autocrat
 	last_election = "1921.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-recruit_character = CZE_Henlein
+recruit_character = HUN_Charles
 
 add_ideas = {
 }

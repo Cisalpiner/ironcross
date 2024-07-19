@@ -1,0 +1,13 @@
+characters = {
+    DEN_Rode = {
+    name = DEN_Rode
+    portraits = {civilian = {large = "gfx/leaders/DEN/Portrait_DEN_Rode.dds"}}
+    country_leader = {
+        desc = "RODE_DESC"
+        ideology = esoteric_germanicism
+        traits = {}
+        expire = "1999.1.1.1"
+        id = -1
+    }
+}
+}

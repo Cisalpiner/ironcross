@@ -1,0 +1,7 @@
+spriteTypes = {
+    ## Czech people
+    spriteType = {
+        name = "GFX_CZE_Henlein"
+        texturefile = "gfx/leaders/Portrait_CZE_Henlein.dds"
+    }
+}

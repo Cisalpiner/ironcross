@@ -103,6 +103,7 @@ ideologies = {
 	social_democrat = {
 		types = {
 			socialdemocratic_subtype = {} #Generic
+			
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIALDEMOCRATIC_1"
@@ -307,6 +308,7 @@ ideologies = {
 		types = {
 			ultranationalistic_subtype = {} #Generic
 			national_socialism = {can_be_randomly_selected = no}
+			esoteric_germanicism = {can_be_randomly_selected = no}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_ULTRANATIONALISTIC_1"
