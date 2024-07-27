@@ -29,37 +29,15 @@ DEN_esoteric_germanicism:0 "High Commonwealth of Nordhjem"
 DEN_esoteric_germanicism_DEF:0 "the High Commonwealth of Nordhjem"
 
 ### Austria
-AUS_national_socialism:0 "Deutsches Reich"
-AUS_national_socialism_DEF:0 "das Deutsche Reich"
+AUS_national_socialism:0 "State of Austria"
+AUS_national_socialism_DEF:0 "the State of Austria"
 
 #Czechia
 CZE_AUS_TIC_Autonomous_Region:0 "Bohemian Autonomy"
 CZE_AUS_TIC_Autonomous_Region_DEF:0 "the Autonomous Region of Bohemia"
 
-######### Rhineland
-RHN_totalist:0 "Rhenish Workers' Union"
-RHN_totalist_DEF:0 "the Rhenish Workers' Union"
-RHN_syndicalist:0 "Rhenish Commune"
-RHN_syndicalist_DEF:0 "the Commune of the Rhine"
-RHN_socialist:0 "Rhenish Socialist Republic"
-RHN_socialist_DEF:0 "the Rhenish Socialist Republic"
-RHN_social_democrat:0 "Rhenish Republic"
-RHN_social_democrat_DEF:0 "the Republic of the Rhine"
-RHN_social_liberal:0 "Rhenish Republic"
-RHN_social_liberal_DEF:0 "the Republic of the Rhine"
-RHN_market_liberal:0 "Rhenish Republic"
-RHN_market_liberal_DEF:0 "the Republic of the Rhine"
-RHN_social_conservative:0 "Rhenish Republic"
-RHN_social_conservative_DEF:0 "the Republic of the Rhine"
-RHN_authoritarian_democrat:0 "Rhenish Republic"
-RHN_authoritarian_democrat_DEF:0 "the Republic of the Rhine"
-RHN_paternal_autocrat:0 "Rhenish Kingdom"
-RHN_paternal_autocrat_DEF:0 "the Kingdom of the Rhineland"
-RHN_junta_subtype:0 "Rhenish State"
-RHN_junta_subtype_DEF:0 "the Rhenish State"
-RHN_ultranationalist_subtype:0 "Rhenish National Union"
-RHN_ultranationallist_subtype_DEF:0 "the Rhenish National Union"
-RHN:0 "Rhineland"
-RHN_DEF:0 "the Rhineland"
-RHN_ADJ:0 "Rhenish"
+#France
+FRA_socialist:0 "French Popular Republic"
+FRA_socialist_DEF:0 "the French Popular Republic"
 
+######### Rhineland

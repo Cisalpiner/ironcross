@@ -1,0 +1,13 @@
+characters = {
+    FRA_Government = {
+    name = FRA_Government
+    portraits = {civilian = {large = "gfx/leaders/FRA/Portrait_FRA_Government.dds"}}
+    country_leader = {
+        desc = "FRA_GOVERNMENT"
+        ideology = socialist_subtype
+        traits = {}
+        expire = "1999.1.1.1"
+        id = -1
+    }
+}
+}
