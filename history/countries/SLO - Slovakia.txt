@@ -1,4 +1,4 @@
-capital = 4
+SLOcapital = 1004
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -22,6 +22,8 @@ set_technology = {
 	formation_flying = 1
 }
 
+set_country_flag = Austrian_Occupation
+
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -29,8 +31,6 @@ if = {
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
-		improved_light_tank = 1
-		basic_heavy_tank = 1
 	}
 }
 if = {
@@ -40,8 +40,6 @@ if = {
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
-		basic_heavy_tank_chassis = 1
 		engine_tech_1 = 1
 	}
 }
@@ -54,97 +52,95 @@ if = {
 	}
 }
 set_research_slots = 3
-set_stability = 0.32
-set_war_support = 0.62
+set_stability = 0.22
+set_war_support = 0.35
 
-SOV = {
+HUN = {
     if = {
         limit = {
             has_dlc = "Together for Victory"
         }
         set_autonomy = {
-            target = BLR
-            autonomy_state = puppet
+            target = SLO
+            autonomy_state = TIC_Autonomous_Region
         }
         else = {
-            puppet = BLR
+            puppet = SLO
         }
     }
 }
 
+
 set_popularities = {
-	paternal_autocrat = 10.12
-	ultranationalist = 34.89
-	syndicalist = 4.78
-	socialist = 8.34
-	totalist = 2.97
-	market_liberal = 7.65
-	social_conservative = 6.42
-	social_liberal = 3.21
-	social_democrat = 18.56
-	authoritarian_democrat = 3.06
+	paternal_autocrat = 22.34
+	ultranationalist = 15.45
+	syndicalist = 8.21
+	socialist = 12.78
+	totalist = 6.67
+	market_liberal = 9.23
+	social_conservative = 7.89
+	social_liberal = 5.45
+	social_democrat = 10.12
+	authoritarian_democrat = 1.86
 }
 
 set_party_name = {
 	ideology = totalist
-	long_name = AUS_totalist_party_long
-	name = AUS_totalist_party
+	long_name = SLO_totalist_party_long
+	name = SLO_totalist_party
 }
 set_party_name = {
 	ideology = syndicalist
-	long_name = AUS_syndicalist_party_long
-	name = AUS_syndicalist_party
+	long_name = SLO_syndicalist_party_long
+	name = SLO_syndicalist_party
 }
 set_party_name = {
 	ideology = socialist
-	long_name = AUS_socialist_party_long
-	name = AUS_socialist_party
+	long_name = SLO_socialist_party_long
+	name = SLO_socialist_party
 }
 set_party_name = {
 	ideology = social_democrat
-	long_name = AUS_social_democrat_party_long
-	name = AUS_social_democrat_party
+	long_name = SLO_social_democrat_party_long
+	name = SLO_social_democrat_party
 }
 set_party_name = {
 	ideology = social_liberal
-	long_name = AUS_social_liberal_party_long
-	name = AUS_social_liberal_party
+	long_name = SLO_social_liberal_party_long
+	name = SLO_social_liberal_party
 }
 set_party_name = {
 	ideology = market_liberal
-	long_name = AUS_market_liberal_party_long
-	name = AUS_market_liberal_party
+	long_name = SLO_market_liberal_party_long
+	name = SLO_market_liberal_party
 }
 set_party_name = {
 	ideology = social_conservative
-	long_name = AUS_social_conservative_party_long
-	name = AUS_social_conservative_party
+	long_name = SLO_social_conservative_party_long
+	name = SLO_social_conservative_party
 }
 set_party_name = {
 	ideology = authoritarian_democrat
-	long_name = AUS_authdem_party_long
-	name = AUS_authdem_party
+	long_name = SLO_authdem_party_long
+	name = SLO_authdem_party
 }
 set_party_name = {
 	ideology = paternal_autocrat
-	long_name = AUS_pataut_party_long
-	name = AUS_pataut_party
+	long_name = SLO_pataut_party_long
+	name = SLO_pataut_party
 }
 set_party_name = {
 	ideology = ultranationalist
-	long_name = AUS_ultranationalist_party_long
-	name = AUS_ultranationalist_party
+	long_name = SLO_ultranationalist_party_long
+	name = SLO_ultranationalist_party
 }
 
 set_politics = {
-	ruling_party = ultranationalist
+	ruling_party = paternal_autocrat
 	last_election = "1921.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
-recruit_character = AUS_Steidle
-recruit_character = AUS_Hitler
 
 add_ideas = {
 }
