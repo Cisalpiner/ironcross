@@ -51,6 +51,6 @@ SOV_authoritarian_democrat:0 "Russian Republic"
 SOV_authoritarian_democrat_DEF:0 "the Russian Republic"
 
 ##Belarus
-BLR_authoritarian_democrat_RUS_TIC_Autonomous_Region:0 "Byelorussian Autonomous Republic"
-BLR_authoritarian_democrat_RUS_TIC_Autonomous_Region_DEF:0 "the Byelorussian Autonomous Republic"
+BLR_SOV_authoritarian_democrat_TIC_Autonomous_Region:0 "Byelorussian Autonomous Republic"
+BLR_SOV_authoritarian_democrat_TIC_Autonomous_Region_DEF:0 "the Byelorussian Autonomous Republic"
 
